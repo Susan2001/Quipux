@@ -1,0 +1,726 @@
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,-0.25rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    overflow-x: hidden;
+}
+
+
+
+.navbar {
+
+    background-color:#2e2838 ;
+    display:none;
+
+}
+
+.navbar-toggler-icon {
+
+    color: #fff;
+    border:none;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+#navbarToggleExternalContent {
+
+    background-color:#2e2838 ;
+    padding-top:5%;
+
+}
+
+
+
+#navbarToggleExternalContent ul li {
+
+    list-style:none;
+    padding-top:3%;
+    padding-bottom:3%;
+
+ 
+}
+
+#navbarToggleExternalContent ul li a {
+
+    text-decoration:none;
+    color:#fff;
+}
+
+
+#PhotoUser {
+
+    display: none;
+}
+
+#wrapButton {
+
+    border:none;
+}
+
+#wrapButton:hover {
+
+    color:#fff;
+    border:none;
+    background:transparent;
+}
+
+ #menuSidebar{
+
+   width:4%;
+   height:100%;
+   margin:0;
+   padding-top:1%;
+   position: absolute;
+   z-index: 9000;
+   background-color: #2e2838 ;
+}
+
+#menuSidebar button {
+   
+    margin-bottom:80%;
+}
+
+#Extend_menuSidebar{
+    
+    position: absolute;
+    z-index: 1000000;
+   
+ }
+
+ .NavComponents {
+    margin-top: 5%;
+}
+
+.nav {
+    width: 100%;
+    padding-top:5%;
+    padding-bottom:5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+
+}
+
+
+
+
+#collapseNav_empresas{
+
+    padding-left: 10%;
+    padding-bottom:5%;
+    font-size:20px;
+    font-weight:100;
+ 
+  
+}
+
+#collapseNav_empresas a {
+
+    color: #fff;
+    list-style:none;
+}
+
+#collapseNav_articulos{
+
+    padding-left: 10%;
+    padding-bottom:2%;
+    font-size:20px;
+    font-weight:100;
+ 
+  
+}
+
+#collapseNav_articulos a {
+
+    color: #fff;
+}
+
+#collapseNav_colaboradores{
+
+    padding-left: 10%;
+    padding-bottom:5%;
+    font-size:20px;
+    font-weight:100;
+ 
+  
+}
+
+#collapseNav_colaboradores a {
+
+    color: #fff;
+}
+
+#ModulePage {
+
+    padding-left: 4%;
+
+ }
+
+ #navbarInicio {
+
+  padding-top:1%;
+  padding-left:2%;
+  background-color: #fff;
+ }
+
+ .breadcum {
+
+    padding-left:3%;
+ }
+
+ .breadcum-divider {
+
+    color:#C5C5C6 ;
+ }
+
+ .breadcum li  {
+
+    font-size:20px;
+    font-weight: 600;
+    color:#C5C5C6 ;
+
+ 
+
+ }
+
+ .breadcum svg {
+
+    color: #C5C5C6 ;
+ }
+
+
+ #activeBreadcum a {
+
+    text-decoration:none;
+    color:#00a5f8;
+    border-bottom:solid 10px #00a5f8;
+    padding-bottom:14%;
+
+ }
+
+ #UserProfile p {
+
+    font-size:20px;
+ }
+
+ #UserProfile {
+
+  padding-left:40%;
+ }
+
+#banner {
+
+    height:550px;
+    padding-top:5%;
+}
+
+.bannerImage {
+
+    width:100%;
+    margin-left: -12%;
+
+}
+
+#TitleImageBanner {
+
+    background-color:rgba(255, 255, 255, 0.66);
+    backdrop-filter:blur(6px);
+    width:100%;
+    padding-top:2%;
+    padding-bottom:2%;
+    position:relative;
+    top:-160px;
+    left:-10%;
+
+}
+
+#TitleImageBanner p {
+
+    color:#1141A0;
+    font-size:50px;
+    font-weight:600;
+    text-align: center;
+}
+
+#SearchSection {
+
+    padding-left:3%;
+}
+
+#dropdown {
+ 
+    background-color:#C9EBFF;
+    color: rgb(24, 52, 134);
+    font-weight: 500;
+    padding-top:3%;
+    padding-bottom:3%;
+    padding-left:5%;
+    padding-right:5%;
+    border:none;
+}
+
+.input-group-prepend {
+
+    background-color:#C9EBFF;
+    padding-top:1%;
+    padding-bottom:1%;
+    width:25%;
+}
+
+#buscador {
+
+    height:54px;
+}
+
+#dropdownIcon {
+
+    position:relative; 
+    left:15%;
+}
+
+#titleBanner {
+
+ font-size:60px;
+ color: #00a5f8;
+ padding-top:10%;
+ padding-left:3%;
+}
+
+#buttonSearch {
+
+    background-color:#01a7fa ;
+    border:none;
+    width:100%;
+    height:54px;
+}
+
+#promoServicios {
+
+    padding-left:3%;
+    padding-top:2%;
+
+}
+
+#serviciosInfo {
+
+    width:80%;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:2%;
+    padding-right:2%;
+    background-color: #fff;
+
+}
+
+#servicios h5{
+
+    color:rgb(24, 52, 134);
+    margin-right:10%;
+}
+
+
+
+#servicios button {
+
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:11%;
+    padding-right:11%;
+    font-size:14px;
+    font-weight:600;
+    border-color:#3DB065  ;
+    border:solid 1px;
+    border-radius:6px;
+    box-shadow:none;
+    color: #3DB065  ;
+    
+}
+
+#tramitesInfo {
+
+    background-color:#fff;
+    padding-left:3%;
+    padding-right:3%;
+    padding-top:2%;
+    padding-bottom:2%;
+    position:relative;
+    left:-4%;
+    top:-20px;
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px;
+    border-left:solid 5px #1734A9 ;
+}
+
+#tramitesInfo h3 {
+
+    color: #1734A9 ;
+}
+
+#progressBar {
+
+    padding-top:2%;
+}
+
+#logoFooter {
+
+    padding-left:45%;
+    padding-right:30%;
+    padding-top:2%;
+    
+}
+
+
+
+#articulo {
+
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+#tarjetaContacto {
+
+    background: #fff;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:2%;
+    padding-right:2%;
+    height:730px;
+
+
+}
+
+#contactoInfo {
+
+   text-align: center;
+   font-size:14px;
+
+
+}
+
+#contactoInfo h5 {
+
+    margin-bottom:-2px;
+}
+
+#contactoInfo {
+
+    padding-bottom:5%;
+
+}
+
+#contactoInfo a {
+
+    color:#00a5f8;
+}
+
+#carousel {
+
+    background-color:#fff;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:2%;
+    padding-right:2%;
+    margin-left:2%;
+}
+
+.carousel-item img {
+
+    padding-left: 39%;
+    padding-top: 10%;
+}
+
+#articulosInfo {
+
+    background-color:#fff;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:2%;
+    padding-right:2%;
+    margin-top:2%;
+    margin-left:2%;
+    height:300px;
+    overflow-y: scroll;
+}
+
+#indivArticulo button {
+
+    width:60%;
+    height:30%;
+    border:solid 1px #A7A7A7 ;
+    border-radius:100px;
+    ;
+}
+
+#indivArticulo {
+
+    text-align:center;
+    font-size:14px;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+#logoFooter_artic {
+
+    margin-top:4%;
+}
+
+#tarjetaContactoEmpresa {
+
+    padding-top:10%;
+}
+
+#tarjetaColUno {
+
+    border-right:solid 2px #000;
+}
+
+/*GRID RESPONSIVE*/
+
+@media (max-width: 900px) {
+
+    body {
+        background-color: #f0efef;
+        padding-left:0;
+        padding-right:0;
+        margin-left:0;
+        margin-right:0;
+        overflow-y:scroll;
+      }
+
+
+   #Extend_menuSidebar {
+      display:none;
+    }
+
+    #menuSidebar {
+        display:none;
+    }
+
+    #ModulePage {
+
+        padding-left:0;
+    
+     }
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,-1.25rem);
+    padding-left: var(--bs-gutter-x,-0.25rem);
+    margin-right: auto;
+    margin-left: auto;
+    overflow-x: hidden;
+}
+
+    #tarjetaContacto {
+
+        padding-top:5%;
+        margin-bottom:5%;
+        padding-left:3%;
+        padding-right:5%;
+    }
+
+    #tarjetaContacto h5 {
+
+        text-align:center;
+    }
+
+    #contactoInfo h5 {
+
+        font-size:15px;
+    }
+
+    #User {
+
+        display:none;
+    }
+
+    #PhotoUser {
+
+        display: inline-block;
+        position: relative;
+        left:75%;
+        top:-25px;
+    }
+    
+    .breadcrumb {
+
+        position:relative;
+        top:20px;
+    }
+
+    .carousel-item img {
+        padding-left: 19%;
+        padding-top: 10%;
+    }
+
+    #ArticulosSection {
+
+        margin-top:3%;
+    }
+
+    #indivArticulo {
+        text-align: center;
+        font-size: 14px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .breadcum li  {
+
+        font-size:15px;
+        font-weight: 600;
+        color:#C5C5C6 ;
+    
+    }
+
+    #articulo {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-left: 3%;
+        padding-right: 0%;
+    }
+
+    .logo_Quipux {
+
+        position:relative;
+        top:24px;
+    }
+
+    #titleBanner {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    #SearchSection p{
+
+        text-align:center;
+        padding-bottom: 5%;
+    }
+
+    .input-group-prepend {
+        background-color: #C9EBFF;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: 33%;
+    }
+
+    #dropdown {
+        font-size: 14px;
+    }
+    
+    #dropdownIcon {
+
+        position:relative; 
+        left:1%;
+    }
+
+    #buscador {
+        height: 58px;
+    }
+    
+    #buttonSearch {
+        background-color: #01a7fa;
+        border: none;
+        width: 100%;
+        height: 58px;
+    }
+
+    .bannerImage {
+        width: 100%;
+        margin-left: 0%;
+        padding-top: 16%;
+    }
+
+    #TitleImageBanner {
+        background-color: rgba(255, 255, 255, 0.66);
+        -webkit-backdrop-filter: blur(6px);
+        backdrop-filter: blur(6px);
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        position: relative;
+        top: -42px;
+        left: 0%;
+    }
+
+    #TitleImageBanner p {
+        font-size: 35px;
+    }
+
+    #promoServicios {
+        padding-left: 3%;
+        padding-top: 53%;
+        width: 134%;
+    }
+
+    #serviciosInfo {
+        width: 82%;
+        padding-top: 7%;
+        padding-bottom: 12%;
+        padding-left: 5%;
+        padding-right: 2%;
+        margin-bottom: 11%;
+        background-color: #fff;
+    }
+
+    div#servicios {
+        margin-bottom: 10%;
+    }
+
+    #tramitesInfo {
+        background-color: #fff;
+        padding-left: 9%;
+        padding-right: 21%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        position: relative;
+        left: -4%;
+        top: -20px;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+        border-left: solid 5px #1734A9;
+    }
+
+    #logoFooter {
+        padding-left: 27%;
+        padding-right: 30%;
+        padding-top: 2%;
+    }
+
+    div#logoFooter_artic {
+        padding-left: 22%;
+    }
+
+    .navbar {
+
+        display:display;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+  }
+
